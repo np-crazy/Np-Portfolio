@@ -1,0 +1,188 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 15px;
+  
+}
+.navigation-bar{
+width: 100%;
+position: fixed;
+top: 0px;
+left: 0px;
+background-color: transparent;
+backdrop-filter: blur(20px);
+z-index: 5;
+}
+.mymenus{
+	font-weight: bolder;
+}
+.mymenus:hover{
+	text-decoration: underline 2px solid royalblue;
+	color: royalblue;
+}
+.logo{
+	font-family: arial black;
+	font-size: 25px;
+	color: royalblue;
+}
+.logo:hover{
+	
+	color: orange;
+}
+.allsection{
+	position: relative;
+    top: 70px;
+	width: 100%;
+}
+.section{
+	width: 100%;
+	height: 100vh;
+	border: 5px solid black;
+}
+.section h1{
+	text-align: center;
+	margin-top: 100px;
+}
+html{
+	scroll-behavior: smooth;
+}
+.home-section{
+	border: none;
+	width: 100%;
+	height: 500px;
+	background-image: url("https://miro.medium.com/v2/resize:fit:1272/1*ZSVmWGcc1weENb0ShawWxw.gif");
+	background-repeat: no-repeat;
+	background-size: 40%;
+	background-position: 90% 10%;
+}
+.myinfo{
+	height: 450px;
+	width: 50%;
+	margin: 10% 4%;
+}
+.info-home{
+	font-size: 30px;
+	font-family: sans-serif;
+}
+.myname{
+	font-size: 50px;
+	text-decoration: none !important;
+}
+.fsjd{
+	font-family: elephant;
+	font-size: 40px;
+}
+.rsm{
+	height: 60px;
+	width: 120px;
+	margin: 20px 30px;
+	border: none;
+	background-color: orangered;
+	color: blueviolet;
+ border-radius: 10px;
+ font-family: sans-serif;
+}
+.rsm:hover{
+	background-color: orange;
+	color: black;
+	border: 3px solid royalblue;
+	transform: scale(1.2);
+}
+.about-section{
+	
+	border: none;
+	width: 100%;
+	height: 500px;
+	display: flex;
+	padding: 20px;
+}
+.aboutsect{
+	height: 500px;
+}
+.myimg{
+	width: 50%;
+}
+.cobj{
+	padding: 5px 70px;
+}
+.carrer{
+	text-align: justify;
+	font-size: 25px;
+	margin-top: 40px;
+	text-indent: 20%;
+	font-family: sans-serif;
+	font-weight: bolder;
+	line-height: 40px;
+}
+.skills-section{
+	border: none ;
+	width: 100%;
+	height: 300px;
+	
+	
+}
+.Skillhead{
+	top: 0px;
+  color: blue;
+	font-weight: bolder;
+}
+.Skillspar{
+	font-family: sans-serif;
+	font-weight: bolder;
+	text-align: center;
+}
+.skills-section td{
+     box-shadow: 0px 0px 0px red;
+     background-color: ghostwhite;
+     border-radius: 50px;
+}
+.skills-section td:hover{
+	
+	background-color: royalblue;
+
+}
+.project-section{
+	border: none;
+	height: 500px;
+	width: 100%;
+}
+.card{
+	border: none;
+	text-align: center;
+  display: inline-block;
+  margin-inline: 20px;
+  margin-left: 150px;
+}
+.contact-section{
+	border: none;
+	height: 200px;
+}
+.contact-detail{
+	margin-top: 30px;
+	width: 50%;
+}
+.contactdetail1{
+	font-size: 25px;
+	font-family: sans-serif
+}
+.contactdetail1:hover{
+	color: orangered;
+}
+.common-contact{
+	display: inline-block;
+}
+.enquiry{
+	margin-left: 50px !important;
+}
+.contact-section h1{
+	font-weight: bolder;
+	margin-top: 60px;
+}
+.contact-section{
+	width: 100%;
+	height: 40vh;
+	margin: 50px;
+
+}
